@@ -1,0 +1,9 @@
+<table width="100%">
+    <tr>
+        <td><%= numbers_to_string task.numbers %></td>
+        <td style="text-align: right"> <%= task.updated_at.strftime "%e %b %Y %T" %></td>
+    </tr>
+        <td class="solution" colspan="2" style="display: none"> <%= render task.solution%> </td>
+    <tr>
+    </tr>
+</table>

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+.sass-cache/
+=======
 *.rbc
 capybara-*.html
 .rspec
@@ -22,3 +29,4 @@ config/secrets.yml
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+>>>>>>> 1d595e336e8a42f9bd4e8bad74f149985f823446

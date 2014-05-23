@@ -1,0 +1,10 @@
+<table width="100%">
+    <% @history.tasks.order("updated_at DESC").each do |task| %>
+    <tr class="task_row">
+        <td>
+            <%= render partial: "task_as_table", object: task, as: :task %>
+        </td>
+    </tr>
+    <% end %>
+
+</table>

@@ -1,0 +1,5 @@
+<%= form_for(@task, remote: true) do |f| %>
+    <%= f.label :numbers %><br/>
+    <%= f.text_field :numbers, value: "", style: "width:80%"%>
+    <%= f.submit value: "Solve", style: "float:right; width:15%" %>
+<% end %>

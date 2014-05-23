@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  selected_numbers: MyText
+  max: 1
+  min: 1
+
+two:
+  selected_numbers: MyText
+  max: 1
+  min: 1
